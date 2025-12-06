@@ -1,6 +1,6 @@
 const sampleItems = [];
 
-for (let i = 1; i < 18; i++) sampleItems.push(`/items/item-${i}.jpg`);
+for (let i = 1; i < 18; i++) sampleItems.push(`./items/item-${i}.jpg`);
 console.log(sampleItems);
 
 export default function ItemMenu({ onSelect }) {

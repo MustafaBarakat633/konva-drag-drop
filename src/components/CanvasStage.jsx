@@ -3,7 +3,7 @@ import DraggableImage from "./DraggableImage";
 import useImage from "use-image";
 
 export default function CanvasStage({ items, setItems, stageWidth }) {
-  const [wallImg] = useImage("/wall.jpg");
+  const [wallImg] = useImage("./wall.jpg");
 
   const updatePosition = (id, x, y) => {
     setItems((prev) =>
